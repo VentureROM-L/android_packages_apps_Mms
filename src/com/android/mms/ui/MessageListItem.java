@@ -158,8 +158,11 @@ public class MessageListItem extends ZoomMessageListItem implements
         mMessageBlock = findViewById(R.id.message_block);
 
         // Add the views to be managed by the zoom control
-        addZoomableTextView(mBodyTextView);
+        addZoomableTextView(mBodyTopTextView);
+        addZoomableTextView(mBodyButtomTextView);
         addZoomableTextView(mDateView);
+        addZoomableTextView(mSimMessageAddress);
+
     }
 
     public void bind(MessageItem msgItem, int accentColor,

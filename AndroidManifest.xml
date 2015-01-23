@@ -357,12 +357,12 @@
         <!-- Templates support -->
         <activity
             android:name=".templates.TemplatesListActivity"
-            android:theme="@style/MmsTheme"
+            android:theme="@style/MmsHoloTheme"
             android:label="@string/template_list_title" >
         </activity>
 
         <activity android:name=".templates.TemplateEditor"
-            android:theme="@style/MmsTheme"
+            android:theme="@style/MmsHoloTheme"
             android:label="@string/template_new_title">
         </activity>
 
